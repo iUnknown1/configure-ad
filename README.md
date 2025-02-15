@@ -62,7 +62,42 @@ Now, I'll create another VM that will serve as the client. The image for this ma
 
 
 <p>
-In the Networking tab of this VM, I'll make sure it will create itself on the same virtual network of the previous machine created. I'll leave all other settings default and create this VM:
+Now I have to to set up our Domain Controller private IP address to static. This controller will double as a DNS server, which I will tell our client to use as a DNS server later.
 </p>
 <br />
+
+![image](https://github.com/user-attachments/assets/95ff712c-fca2-452b-bde8-3b2ae15a605c)
+
+
+<p>
+  After going into remote desktop connection and connecting to Domain Controller, I'm going to disable the firewall. You should see everything is checked as disabled.
+</p>
+<br />
+
+![image](https://github.com/user-attachments/assets/52a5aa33-537b-4a94-9c47-379d8736799f)
+
+<p>
+Next, I need configure our clients DNS settings to the DC. To start, back in Azure, I'll grab the DCs private IP address then input DC's private ip in client's DNS settings.
+</p>
+<br />
+
+![image](https://github.com/user-attachments/assets/587df318-ec4d-4368-98f1-85d071fe229e)
+
+
+<p>
+
+</p>
+<br />
+
+
+
+
+
+
+
+
+
+
+
+
 
