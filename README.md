@@ -85,14 +85,19 @@ Next, I need configure our clients DNS settings to the DC. To start, back in Azu
 
 
 <p>
-
+Now, I'll reopen Remote Desktop connection to connect to the client machine using its public IP and the log in credentials I created while setting up this virtual machine and open powershell to attempt to ping the Domain Controller using the ping command and its private ip address.
 </p>
 <br />
 
+![image](https://github.com/user-attachments/assets/9a71c9dc-2672-4a02-9d10-9ed7b075034b)
 
 
+<p>
+Then I check to see if the client is pointing to our Domain Controller if everything is correct using the command ipconfig / all
+</p>
+<br />
 
-
+![image](https://github.com/user-attachments/assets/6ce3e27c-7f64-4038-9528-f2f1ca020ada)
 
 
 
