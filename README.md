@@ -93,14 +93,17 @@ Now, I'll reopen Remote Desktop connection to connect to the client machine usin
 
 
 <p>
-Then I check to see if the client is pointing to our Domain Controller if everything is correct using the command ipconfig / all
+Then I check to see if the client is pointing to our Domain Controller using the command ipconfig / all
 </p>
 <br />
 
 ![image](https://github.com/user-attachments/assets/6ce3e27c-7f64-4038-9528-f2f1ca020ada)
 
 
-
+<p>
+With that, I've successfully created two VMs (Virtual Machines), one running Windows Server, to act as a Domain Controller. The other VM as a client, running Windows 10. These will be used many times throughout my projects.
+</p>
+<br />
 
 
 
