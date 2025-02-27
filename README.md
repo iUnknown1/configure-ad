@@ -1,5 +1,7 @@
 <p align="center">
-<img src="https://i.imgur.com/Ua7udoS.png" alt="Traffic Examination"/>
+
+![image](https://github.com/user-attachments/assets/ac3f02ce-843b-4a74-9995-00d927bbb01d)
+
 </p>
 
 <h1>Preparing Active Directory Infrastructure in Azure</h1>
@@ -38,7 +40,7 @@ In this project, I create two Virtual Machines, one running Windows Server to re
 ![image](https://github.com/user-attachments/assets/87b17cc2-4dc0-4341-9cf6-d91e72aa2169)
 
 <p>
-Once we have our resource group and network created, I'll set up our first virtual machine that will act as our Domain Controller.
+Once we have our resource group and network created, I'll set up our first virtual machine that will act as our Domain Controller. (DC-1)
 </p>
 <br />
 
