@@ -79,7 +79,7 @@ Now I have to to set up our Domain Controller private IP address to static. This
 ![image](https://github.com/user-attachments/assets/52a5aa33-537b-4a94-9c47-379d8736799f)
 
 <p>
-Next, I need configure our clients DNS settings to the DC. To start, back in Azure, I'll grab the DCs private IP address then input DC's private ip in client's DNS settings.
+Next, I need to configure our clients DNS settings to the DC. To start, back in Azure, I'll grab the DC-1 private IP address then input DC's private ip in client's DNS settings.
 </p>
 <br />
 
