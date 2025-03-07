@@ -4,7 +4,7 @@
 
 </p>
 
-<h1>Preparing Active Directory Infrastructure in Azure</h1>
+<h1>Creating Virtual Machines for Implementing Active Directory </h1>
 In this project, I create two Virtual Machines, one running Windows Server to represent a Domain Controller. The other Virtual Machine will act as the client that joins the domain. Later on, I'll deploy Active Directory, create users in the domain using a script to log in from as clients, and then manage the accounts, as well as update group policies to practice being in a real IT environment.  <br />
 
 
